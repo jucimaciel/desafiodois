@@ -1,0 +1,79 @@
+body{
+    background: rgb(84, 105, 124);
+    color:#fff;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.conteudo{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: rgb(136, 91, 132);
+    padding: 60px;
+    border-radius: 20px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.top input{
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 17px;
+    background: rgb(155, 184, 207);
+}
+.top button{
+    width: 40px;
+    border-radius: 17px;
+    margin-left: 10px;
+    background: rgb(51, 4, 53);
+    color: #fff;
+    margin: 10px;
+}
+.top button:hover{
+    cursor: progress;
+}
+#listaTarefas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#listaTarefas li{
+    padding: 20px;
+    background: rgb(51, 4, 53);
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 17px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.btnAcao{
+    border-radius: 17px;
+    background: rgb(72, 97, 117);
+    margin-right: -10px;
+    color: #fff;
+    margin-left: 10px;
+
+}
+.btnAcao:hover{
+    background: pink;
+}
+h1{
+    text-align: center;
+    background: pink;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(74, 112, 156);
+
+}
